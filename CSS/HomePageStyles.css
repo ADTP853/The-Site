@@ -1,0 +1,286 @@
+html,body{
+            background-color: rgba(253, 253, 253, 0.959);
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden; 
+            display: inline-block;
+        }
+    #bit{
+            color: rgb(124, 122, 122);
+            text-align: center;
+            font-size: 75px;            
+            padding-top: 100px;  
+        }  
+    .banner{ 
+            height:800px;
+            padding: 0px;
+            margin:0px; 
+            background-image: url("IMG_2573.jpg");
+            background-size: cover;
+            background-position: center; 
+            display: block; 
+            border-bottom: 4px solid rgba(1, 172, 172, 0.795);       
+        }      
+    a{
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+        }
+    #links{
+            height: 65px;
+            width: 900px;
+            border-top: 3px solid rgb(124, 122, 122);
+            border-bottom: 1px solid rgb(124, 122, 122);
+            margin-top: 30px;
+            margin-bottom: 40px;
+            padding: 0px;
+            padding-top: 0px;
+            padding-bottom: 20px;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Courier New', Courier, monospace;
+            margin-left: 20%;
+            margin-right: 20%;  
+            overflow-wrap: normal; 
+        } 
+    .content{
+            height:600px;   
+        }
+    .one{
+            background-color: rgba(228, 225, 225, 0.733); 
+            margin-bottom: -16px;
+        }
+    img.pic1{
+            max-height: 600px;
+            float:right;
+            margin-left: 100px;  
+        }
+    #txt{
+            padding: 5%;
+            max-block-size: 70%;
+            font-size: 18px;
+            line-height: 25px;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+    #js1{
+            color: cadetblue;
+        }
+    .HB{
+        font-size: 20px;
+        font-family: Georgia, 'Times New Roman', Times, serif;  
+        padding: 8px;
+        background-color: rgb(252, 202, 128);
+        box-shadow: 5px 5px rgb(197, 195, 195);
+        
+        }
+    .HB:hover{
+        background-color:rgb(182, 131, 4);
+        cursor: pointer;
+        color: rgb(212, 5, 5);
+        border-radius: 20px;
+        
+    }
+    .me{
+            color: purple;
+        }
+    .quote{
+            font-size: 20px;
+            font-style: italic;
+            text-align: right;
+            margin-top: 80px;
+        }
+    .two{
+            margin-bottom: -16px;
+        }
+    img.pic2{
+            max-height: 600px;
+            float:left;
+            margin-right: 100px;
+        } 
+    img.pic3{
+            max-height: 600px;
+            float: right;
+            margin-left: 100px;
+        }
+    .last{
+            border-bottom: 4px solid rgba(1, 172, 172, 0.795);
+        }
+    img.pic4{
+            max-height: 600px;
+            float:left;
+            margin-right: 100px;
+        } 
+    #links2{
+            height: 65px;
+            width: 900px;
+            border-top: 1px solid rgb(124, 122, 122);
+            border-bottom: 3px solid rgb(124, 122, 122);
+            margin-top: 30px;
+            margin-bottom: 20px;
+            padding: 0px;
+            padding-top: 0px;
+            padding-bottom: 20px;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Courier New', Courier, monospace;
+            margin-left: 20%;
+            margin-right: 20%;  
+            overflow-wrap: normal; 
+        }
+    #foot{
+            border: 0px;
+            padding-left: 40%;
+            padding-right: 40%;
+            display: inline;
+            text-align: center
+        }
+    .fa-instagram{
+            border:0px;
+            color: rgb(124, 122, 122);
+        }
+    .fa-facebook-square{
+            border: 0px;
+            margin-left: 50px;
+            color: rgb(124, 122, 122); 
+        }
+    .fa-github-square{
+            border: 0px;
+            margin-left: 50px;
+            color: rgb(124, 122, 122);
+        }
+    .fa-linkedin{
+            border:0px;
+            margin-left: 50px;
+            color: rgb(124, 122, 122);
+        }
+    #copy{
+            background-color: rgb(214, 213, 213);
+            text-align: center;
+        }
+ /*Now takes CSS for the What I can Offer you page*/    
+    .pic5{
+        height:800px;
+        padding: 0px;
+        margin:0px; 
+        background-image: url("4O2A0733.jpg");
+        background-size: cover;
+        background-position: center; 
+        display: block; 
+        border-bottom: 4px solid goldenrod;
+        }
+    .pic6{
+        height:800px;
+        padding: 0px;
+        margin:0px; 
+        background-image: url("4O2A7956.jpg");
+        background-size: cover;
+        background-position: center; 
+        display: block; 
+        border-top: 4px solid goldenrod;
+        }
+    #new{
+        height: 400px;
+        width: 400px;
+        background-image: url("new.jpg");
+        margin-right: 50px;
+        border-radius: 30px;
+        background-position: center;
+        }
+    #add{
+        height: 400px;
+        width: 400px;
+        background-image: url("add.jpg");
+        margin-right: 50px;
+        border-radius: 30px;
+        background-position: center;
+        }
+    #fix{
+        height: 400px;
+        width: 400px;
+        background-image: url("fix.jpg");
+        border-radius: 30px;
+        background-position: center;
+        }
+    #content{
+        height: 400px;
+        margin: 20px;
+        }
+    .work{
+        display: flex;
+        flex-flow: row;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        background-size: cover;
+        background-position: center;
+        }
+    li{
+        background-position: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        }
+    .q2{
+        margin: 0px;
+        padding-top: 40px;
+        padding-right: 20px;
+        display: block;
+        font-size: 30px;
+        opacity: 0.6;
+        }
+    .dtxt{
+        margin: 0px;
+        padding: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        }
+    .d1{
+        height:600px;
+        padding: 0px;
+        margin:0px; 
+        background-image: url("new.jpg");
+        background-size: cover;
+        background-position: center; 
+        display: block;
+        opacity: 0.7;
+        border-top: 4px solid goldenrod; 
+        }
+    .d2{
+        height:600px;
+        padding: 0px;
+        margin:0px; 
+        background-image: url("add.jpg");
+        background-size: cover;
+        background-position: center; 
+        display: block;
+        opacity: 0.7;
+        border-top: 4px solid goldenrod; 
+        }
+    .d3{
+        height:600px;
+        padding: 0px;
+        margin:0px; 
+        background-image: url("fix.jpg");
+        background-size: cover;
+        background-position: center; 
+        display: block;
+        opacity: 0.7;
+        border-top: 4px solid goldenrod; 
+        }
+   
+    
+    
+    
+   
+   
+   
+    
+    
+    
+    
+    
+    
+   
+    
+    
+    
+    
