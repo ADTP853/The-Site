@@ -333,10 +333,9 @@ html,body{
             font-size: 30px;  
         }
         #vid{
-            width: 100%;
-            height: 40%;
             margin: 0px;
             margin-top: 55%;
+            margin-left: 15%;
         }
 
     /*SMALL/MEDIUM LAPTOP SIZE*/
@@ -344,7 +343,7 @@ html,body{
 
     }
     /*MAIN TERMINAL SIZE*/
-    @media screen and (min-width:1200px)
+    @media screen and (min-width:1200px){}
      
     /*
             height: 65px;
@@ -374,7 +373,6 @@ html,body{
     
     
    
-    
     
     
     
