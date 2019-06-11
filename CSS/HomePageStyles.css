@@ -28,7 +28,7 @@ html,body{
             font-size: 75px;  
         }  
         #vid{
-            margin-top: 10%;
+            margin-top: 20%;
         }
 
     /*FOR BUILDING PURPOSES
@@ -276,9 +276,9 @@ html,body{
         }
 
         /*  MEDIA QUERIES  */
-    @media screen and (max-width:400px){
+    @media screen and (max-width:600px){
         .banner{ 
-            height:83%;
+            height:100%;
             width: 100%;
             padding: 0px;
             margin:0px; 
@@ -290,6 +290,15 @@ html,body{
         #bit{
             font-size: 30px;  
         }
+        #vid{
+            width: 100%;
+            height: 40%;
+            margin: 0px;
+            margin-top: 45%;
+        }
+
+        /*FOR BUILDING PURPOSES
+
         #links{
             width: 80%;
             margin-left: 10%;
@@ -303,8 +312,39 @@ html,body{
             text-align: center;
             font-size: 13px;
             font-family: 'Courier New', Courier, monospace;
+
+            FOR BUILDING PURPOSES*/
+            
         } 
     }
+    /*IPAD SIZE*/
+    @media screen and (min-width:600px){
+        .banner{ 
+            height:100%;
+            width: 100%;
+            padding: 0px;
+            margin:0px; 
+            background-size: cover;
+            background-position: center; 
+            display: block; 
+            border-bottom: 4px solid rgba(1, 172, 172, 0.795);       
+        }
+        #bit{
+            font-size: 30px;  
+        }
+        #vid{
+            width: 100%;
+            height: 40%;
+            margin: 0px;
+            margin-top: 55%;
+        }
+
+    /*SMALL/MEDIUM LAPTOP SIZE*/
+    @media screen and (min-width:1000px){
+
+    }
+    /*MAIN TERMINAL SIZE*/
+    @media screen and (min-width:1200px)
      
     /*
             height: 65px;
