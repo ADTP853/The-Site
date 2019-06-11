@@ -19,38 +19,37 @@ else
     greeting = 'Welcome!';
     }
 
-document.write('<h3>' + greeting + '</h3>');
+document.write(greeting + " ");
 
-var today = new Date();
-var dayNow = today.getDay();
-var day;
 
-if (dayNow = 0) 
-    {
-    day = 'How is your working week?';
-    }
-else if (dayNow = 1) 
-    {
-    day = 'How is your working week?';
-    }
-else if (dayNow = 2) 
-    {
-    day = 'How is your working week?';
-    }
-else if (dayNow = 3) 
-    {
-    day = 'How is your working week?';
-    }
-else if (dayNow = 4) 
-    {
-    day = 'How is your weekend?';
-    }
-else if (dayNow = 5) 
-    {
-    day = 'How is your weekend?';
-    }
-else if (dayNow = 6) 
-    {
-    day = 'How is your weekend?';
-    }
-document.write(day);
+var days = ["Moon Day", "Tyres Day", "Wodins Day", "Thors Day", "How's your weekend?", "Wash Day", "Sun Day"];
+var day = new Date().getUTCDay() - 1;
+    
+function getMessageOfTheDay() {
+  switch (day) {
+    case 0:
+      return  days[day] + '';
+      break;
+    case 1:
+      return days[day] + '';
+      break;
+    case 2:
+      return days[day] + '';
+      break;
+    case 3:
+      return days[day] + '';
+      break;
+    case 4:
+      return days[day] + '';
+      break;
+    case 5:
+      return days[day] + '';
+      break;
+    case 6:
+      return days[day] + '';
+      break;
+    default:
+      return days[day] + '';
+  }
+}
+document.write(getMessageOfTheDay() + " ");

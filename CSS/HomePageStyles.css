@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+
 html,body{
             background-color: rgba(253, 253, 253, 0.959);
             width: 100%;
@@ -7,45 +9,51 @@ html,body{
             overflow-x: hidden; 
             display: inline-block;
         }
-    #bit{
-            color: rgb(124, 122, 122);
-            text-align: center;
-            font-size: 75px;            
-            padding-top: 100px;  
-        }  
     .banner{ 
-            height:800px;
-            padding: 0px;
-            margin:0px; 
+            position: relative;
+            text-align: center;
+            height:100%;
+            width: 100%;
             background-image: url("IMG_2573.jpg");
             background-size: cover;
             background-position: center; 
-            display: block; 
             border-bottom: 4px solid rgba(1, 172, 172, 0.795);       
-        }      
+        }
+        #bit{
+            color: rgb(124, 122, 122);
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-size: 75px;  
+        }  
+        #vid{
+            margin-top: 10%;
+        }
+
+    /*FOR BUILDING PURPOSES
+
     a{
             color: rgb(0, 0, 0);
             text-decoration: none;
         }
     #links{
-            height: 65px;
-            width: 900px;
+            width: 70%;
+            margin-left: 15%;
+            margin-right: 15%;
             border-top: 3px solid rgb(124, 122, 122);
             border-bottom: 1px solid rgb(124, 122, 122);
-            margin-top: 30px;
-            margin-bottom: 40px;
-            padding: 0px;
-            padding-top: 0px;
-            padding-bottom: 20px;
+            margin-top: 2%;
+            margin-bottom: 1%;
+            position: relative;
+            display: inline-block;
             text-align: center;
             font-size: 30px;
             font-family: 'Courier New', Courier, monospace;
-            margin-left: 20%;
-            margin-right: 20%;  
-            overflow-wrap: normal; 
         } 
     .content{
-            height:600px;   
+            height:600px;  
+            font-family: 'Lato',serif; 
         }
     .one{
             background-color: rgba(228, 225, 225, 0.733); 
@@ -63,8 +71,8 @@ html,body{
             line-height: 25px;
             font-family:Arial, Helvetica, sans-serif;
         }
-    #js1{
-            color: cadetblue;
+    #messageOfTheDay{
+            color: red;
         }
     .HB{
         font-size: 20px;
@@ -72,14 +80,11 @@ html,body{
         padding: 8px;
         background-color: rgb(252, 202, 128);
         box-shadow: 5px 5px rgb(197, 195, 195);
-        
         }
     .HB:hover{
         background-color:rgb(182, 131, 4);
         cursor: pointer;
-        color: rgb(212, 5, 5);
         border-radius: 20px;
-        
     }
     .me{
             color: purple;
@@ -158,6 +163,9 @@ html,body{
             background-color: rgb(214, 213, 213);
             text-align: center;
         }
+
+    FOR BUILDING PURPOSES*/
+
  /*Now takes CSS for the What I can Offer you page*/    
     .pic5{
         height:800px;
@@ -266,9 +274,55 @@ html,body{
         opacity: 0.7;
         border-top: 4px solid goldenrod; 
         }
-   
-    
-    
+
+        /*  MEDIA QUERIES  */
+    @media screen and (max-width:400px){
+        .banner{ 
+            height:83%;
+            width: 100%;
+            padding: 0px;
+            margin:0px; 
+            background-size: cover;
+            background-position: center; 
+            display: block; 
+            border-bottom: 4px solid rgba(1, 172, 172, 0.795);       
+        }
+        #bit{
+            font-size: 30px;  
+        }
+        #links{
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+            border-top: 1.5px solid rgb(124, 122, 122);
+            border-bottom: 0.5px solid rgb(124, 122, 122);
+            margin-top: 2%;
+            margin-bottom: 1%;
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            font-size: 13px;
+            font-family: 'Courier New', Courier, monospace;
+        } 
+    }
+     
+    /*
+            height: 65px;
+            width: 900px;
+            border-top: 3px solid rgb(124, 122, 122);
+            border-bottom: 1px solid rgb(124, 122, 122);
+            margin-top: 30px;
+            margin-bottom: 40px;
+            padding: 0px;
+            padding-top: 0px;
+            padding-bottom: 20px;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Courier New', Courier, monospace;
+            margin-left: 20%;
+            margin-right: 20%;  
+            overflow-wrap: normal; 
+            */
     
    
    

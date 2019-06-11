@@ -2,32 +2,32 @@ var today = new Date();
 var dayNow = today.getDay();
 var day;
 
-if (dayNow = 0) 
+if (dayNow = monday) 
     {
-    day = 'How is your working week?';
+    day = 'MOON DAY';
     }
-else if (dayNow = 1) 
+else if (dayNow = tuesday) 
     {
-    day = 'How is your working week?';
+    day = 'TYRES DAY';
     }
-else if (dayNow = 2) 
+else if (dayNow = wednesday) 
     {
-    day = 'How is your working week?';
+    day = 'WODINS DAY';
     }
-else if (dayNow = 3) 
+else if (dayNow = thursday) 
     {
-    day = 'How is your working week?';
+    day = 'THORS DAY';
     }
-else if (dayNow = 4) 
+else if (dayNow = friday) 
     {
-    day = 'How is your weekend?';
+    day = 'FREYS DAY';
     }
-else if (dayNow = 5) 
+else if (dayNow = saturday) 
     {
-    day = 'How is your weekend?';
+    day = 'WASH DAY';
     }
-else if (dayNow = 6) 
+else if (dayNow = sunday) 
     {
-    day = 'How is your weekend?';
+    day = 'SUN DAY';
     }
-document.write(day);
+document.write('<h3>' + day + '</h3>');;
