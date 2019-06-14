@@ -25,7 +25,7 @@ html,body{
             top: 30%;
             left: 50%;
             transform: translate(-50%,-50%);
-            font-size: 75px;  
+            font-size: 75px; 
         }  
         #vid{
             margin-top: 20%;
@@ -316,7 +316,6 @@ html,body{
             FOR BUILDING PURPOSES*/
             
         } 
-    }
     /*IPAD SIZE*/
     @media screen and (min-width:600px){
         .banner{ 
@@ -330,20 +329,119 @@ html,body{
             border-bottom: 4px solid rgba(1, 172, 172, 0.795);       
         }
         #bit{
-            font-size: 30px;  
+            font-size: 75px;  
         }
         #vid{
-            margin: 0px;
-            margin-top: 55%;
+            margin-top: 35%;
             margin-left: 15%;
+            margin-right: 15%;
         }
-
+    }
     /*SMALL/MEDIUM LAPTOP SIZE*/
     @media screen and (min-width:1000px){
-
+        .banner{ 
+            height:100%;
+            width: 100%;
+            padding: 0px;
+            margin:0px; 
+            background-size: cover;
+            background-position: center; 
+            display: block; 
+            border-bottom: 4px solid rgba(1, 172, 172, 0.795);       
+        }
+        #bit{
+            font-size: 90px;  
+        }
+        #vid{
+            margin-top: 35%;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
     }
     /*MAIN TERMINAL SIZE*/
-    @media screen and (min-width:1200px){}
+    @media screen and (min-width:1200px){
+        .banner{ 
+            height:100%;
+            width: 100%;
+            padding: 0px;
+            margin:0px; 
+            background-size: cover;
+            background-position: center; 
+            display: block; 
+            border-bottom: 4px solid rgba(1, 172, 172, 0.795);       
+        }
+        #bit{
+            font-size: 90px;  
+        }
+        #vid{
+            margin-top: 30%;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+    }
+    /*MAIN TERMINAL SIZE LARGE*/
+    @media screen and (min-width:1500px){
+        .banner{ 
+            height:100%;
+            width: 100%;
+            padding: 0px;
+            margin:0px; 
+            background-size: cover;
+            background-position: center; 
+            display: block; 
+            border-bottom: 4px solid rgba(1, 172, 172, 0.795);       
+        }
+        #bit{
+            font-size: 95px;  
+        }
+        #vid{
+            margin-top: 25%;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+    }
+     /*MAIN TERMINAL SIZE LARGE V1*/
+     @media screen and (min-width:1800px){
+        .banner{ 
+            height:100%;
+            width: 100%;
+            padding: 0px;
+            margin:0px; 
+            background-size: cover;
+            background-position: center; 
+            display: block; 
+            border-bottom: 4px solid rgba(1, 172, 172, 0.795);       
+        }
+        #bit{
+            font-size: 100px;  
+        }
+        #vid{
+            margin-top: 25%;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+    }
+    /*MAIN TERMINAL SIZE LARGE V2*/
+    @media screen and (min-width:2000px){
+        .banner{ 
+            height:100%;
+            width: 100%;
+            padding: 0px;
+            margin:0px; 
+            background-size: cover;
+            background-position: center; 
+            display: block; 
+            border-bottom: 4px solid rgba(1, 172, 172, 0.795);       
+        }
+        #bit{
+            font-size: 100px;  
+        }
+        #vid{
+            margin-top: 25%;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+    }
      
     /*
             height: 65px;
@@ -362,17 +460,5 @@ html,body{
             margin-right: 20%;  
             overflow-wrap: normal; 
             */
-    
-   
-   
-   
-    
-    
-    
-    
-    
-    
-   
-    
-    
+
     
