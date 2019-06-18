@@ -27,6 +27,37 @@ html,body{
             transform: translate(-50%,-50%);
             font-size: 75px; 
         }  
+        #mail{
+            margin-left: 10%;
+            margin-right: 10%;
+            display: inline;
+            text-align: center
+        }
+    .fa-instagram{
+            border:0px;
+            color: rgb(124, 122, 122);
+        }
+    .fa-facebook-square{
+            border: 0px;
+            color: rgb(124, 122, 122); 
+            margin-left: 3%;
+        }
+    .fa-envelope-square{
+            border:0px;
+            color: rgb(124, 122, 122);
+            margin-left: 3%;
+        }
+    .fa-github-square{
+            border: 0px;
+            color: rgb(124, 122, 122);
+            margin-left: 3%;
+        }
+    .fa-linkedin{
+            border:0px;
+            color: rgb(124, 122, 122);
+            margin-left: 3%;
+        }
+        
 
     /*FOR BUILDING PURPOSES
 
@@ -293,6 +324,36 @@ html,body{
             margin: 0px;
             margin-top: 45%;
         }
+        #mail{
+            margin-left: 1%;
+            margin-right: 1%;
+            display: inline;
+            text-align: center
+        }
+    .fa-instagram{
+            border:0px;
+            color: rgb(99, 97, 97);
+        }
+    .fa-facebook-square{
+            border: 0px;
+            color: rgb(99, 97, 97); 
+            margin-left: 1%;
+        }
+    .fa-envelope-square{
+            border:0px;
+            color: rgb(99, 97, 97);
+            margin-left: 1%;
+        }
+    .fa-github-square{
+            border: 0px;
+            color: rgb(99, 97, 97);
+            margin-left: 1%;
+        }
+    .fa-linkedin{
+            border:0px;
+            color: rgb(99, 97, 97);
+            margin-left: 1%;
+        }
 
         /*FOR BUILDING PURPOSES
 
@@ -333,6 +394,36 @@ html,body{
             margin-left: 15%;
             margin-right: 15%;
         }
+        #mail{
+            margin-left: 5%;
+            margin-right: 5%;
+            display: inline;
+            text-align: center
+        }
+    .fa-instagram{
+            border:0px;
+            color: rgb(99, 97, 97);
+        }
+    .fa-facebook-square{
+            border: 0px;
+            color: rgb(99, 97, 97); 
+            margin-left: 3%;
+        }
+    .fa-envelope-square{
+            border:0px;
+            color: rgb(99, 97, 97);
+            margin-left: 3%;
+        }
+    .fa-github-square{
+            border: 0px;
+            color: rgb(99, 97, 97);
+            margin-left: 3%;
+        }
+    .fa-linkedin{
+            border:0px;
+            color: rgb(99, 97, 97);
+            margin-left: 3%;
+        }
     }
     /*SMALL/MEDIUM LAPTOP SIZE*/
     @media screen and (min-width:1000px){
@@ -350,9 +441,39 @@ html,body{
             font-size: 90px;  
         }
         #vid{
-            margin-top: 30%;
+            margin-top: 35%;
             margin-left: 15%;
             margin-right: 15%;
+        }
+        #mail{
+            margin-left: 10%;
+            margin-right: 10%;
+            display: inline;
+            text-align: center
+        }
+    .fa-instagram{
+            border:0px;
+            color: rgb(99, 97, 97);
+        }
+    .fa-facebook-square{
+            border: 0px;
+            color: rgb(99, 97, 97); 
+            margin-left: 3%;
+        }
+    .fa-envelope-square{
+            border:0px;
+            color: rgb(99, 97, 97);
+            margin-left: 3%;
+        }
+    .fa-github-square{
+            border: 0px;
+            color: rgb(99, 97, 97);
+            margin-left: 3%;
+        }
+    .fa-linkedin{
+            border:0px;
+            color: rgb(99, 97, 97);
+            margin-left: 3%;
         }
     }
     /*MAIN TERMINAL SIZE*/
