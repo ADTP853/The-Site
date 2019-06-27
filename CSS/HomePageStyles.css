@@ -366,7 +366,7 @@ html,body{
         #bit{
             font-size: 40px;  
             position: absolute;
-            top: 25%;
+            top: 15%;
             left: 50%;
             transform: translate(-50%,-50%);
         }
@@ -386,7 +386,7 @@ html,body{
         #bit{
             font-size: 40px;  
             position: absolute;
-            top: 25%;
+            top: 15%;
             left: 50%;
             transform: translate(-50%,-50%);
         }
@@ -423,7 +423,7 @@ html,body{
             #bit{
                 font-size: 90px;  
                 position: absolute;
-                top: 28%;
+                top: 22%;
                 left: 50%;
                 transform: translate(-50%,-50%);
                 
@@ -442,7 +442,7 @@ html,body{
 
     @media only screen and (min-width: 1101px) and (max-width: 1400px) {
         #bit{
-            font-size: 70px;  
+            font-size: 90px;  
             position: absolute;
             top: 28%;
             left: 50%;
