@@ -1,37 +1,103 @@
 html,body{
-            background-color: rgba(253, 253, 253, 0.959);
-            width: 100%;
-            height: 100%;
-            margin: 0px;
-            padding: 0px;
-            overflow-x: hidden; 
-            display: inline-block;
-        }
-    .banner{ 
-            position: relative;
-            text-align: center;
-            height:100%;
-            width: 100%;
-            background-image: url("IMG_2573.jpg");
-            background-size: cover;
-            background-position: center; 
-            border-bottom: 4px solid rgba(1, 172, 172, 0.795);       
-        }
-        #bit{
-            color: rgb(124, 122, 122);
-            position: absolute;
-            top: 30%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            font-size: 75px; 
-            font-family: Georgia, 'Times New Roman', Times, serif;
-        }  
-        #mail{
-            margin-left: 10%;
-            margin-right: 10%;
-            display: inline;
-            text-align: center;
-        }
+    background-color: rgba(253, 253, 253, 0.959);
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    display: inline-block;
+}
+.banner{ 
+    position: relative;
+    text-align: center;
+    height:100%;
+    background-image: url("IMG_2573.jpg");
+    background-size: cover;
+    background-position: center; 
+    border-bottom: 4px solid rgba(1, 172, 172, 0.795);       
+}
+#bit{
+    color: rgb(124, 122, 122);
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 75px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}  
+#date{
+    color: rgb(255, 254, 254);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#mail{
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    transform: translate(-45%,-45%);
+    width: 80%;
+}
+.fa-instagram{
+    border:0px;
+    color: white;
+}
+.fa-facebook-square{
+    border: 0px;
+    color: white; 
+    margin-left: 3%;
+}
+.fa-envelope-square{
+    border:0px;
+    color: white;
+    margin-left: 3%;
+}
+.fa-github-square{
+    border: 0px;
+    color: white;
+    margin-left: 3%;
+}
+.fa-linkedin{
+    border:0px;
+    color: white;
+    margin-left: 3%;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+ul.links li {
+    float: left;
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+ul.links li a {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    display: block;
+    color: rgb(124, 122, 122);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+    #l1:hover{
+            color: rgb(75, 0, 75);
+    }
+    #l2:hover{
+            color: rgb(75, 0, 75);
+    }
+    #l3:hover{
+            color: rgb(75, 0, 75);
+    }
     .fa-instagram{
             border:0px;
             color: white;
@@ -56,28 +122,9 @@ html,body{
             color: white;
             margin-left: 3%;
         }
-        
 
-    /*FOR BUILDING PURPOSES
+        /*FOR BUILDING PURPOSES
 
-    a{
-            color: rgb(0, 0, 0);
-            text-decoration: none;
-        }
-    #links{
-            width: 70%;
-            margin-left: 15%;
-            margin-right: 15%;
-            border-top: 3px solid rgb(124, 122, 122);
-            border-bottom: 1px solid rgb(124, 122, 122);
-            margin-top: 2%;
-            margin-bottom: 1%;
-            position: relative;
-            display: inline-block;
-            text-align: center;
-            font-size: 30px;
-            font-family: 'Courier New', Courier, monospace;
-        } 
     .content{
             height:600px;  
             font-family: 'Lato',serif; 
@@ -193,7 +240,368 @@ html,body{
 
     FOR BUILDING PURPOSES*/
 
- /*Now takes CSS for the What I can Offer you page*/    
+
+        /*  MEDIA QUERIES  */
+
+        /* PHONE SCREENS (iPhone SE) */
+
+@media screen and (max-width:599px){
+    .banner{ 
+        height:100%;
+        width: 100%;
+        padding: 0px;
+        margin:0px; 
+        background-size: cover;
+        background-position: center; 
+        display: block; 
+        border-bottom: 4px solid rgba(1, 172, 172, 0.795);       
+    }
+    #bit{
+        font-size: 33px;  
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    #date{
+        color: rgb(255, 254, 254);
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 27px; 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    #mail{
+        position: absolute;
+        top: 80%;
+        left: 44%;
+        transform: translate(-45%,-45%);
+        width: 100%;
+    }
+    ul.links li {
+        float: none;
+    }
+
+        /*
+        .links{
+            width: 70%;
+            margin-left: 15%;
+            margin-right: 15%;
+            border-top: 3px solid rgb(124, 122, 122);
+            border-bottom: 1px solid rgb(124, 122, 122);
+            margin-top: 2%;
+            margin-bottom: 1%;
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        */
+        .links{
+            height:40%;
+            width:90%;
+            padding: 0px;
+            margin-left: 5%;
+            margin-right:5%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+        #l1{
+            width:90%;
+            margin-left: 5%;
+            margin-right:5%;
+            padding: 0px;
+            text-align: center;
+            font-size: 20px;
+        }
+        #l2{
+            width:90%;
+            margin-left: 5%;
+            margin-right:5%;
+            padding: 0px;
+            text-align: center;
+            font-size: 20px;
+        }
+        #l3{
+            width:90%;
+            margin-left: 5%;
+            margin-right:5%;
+            padding: 0px;
+            text-align: center;
+            font-size: 20px;
+        }
+        .fa-instagram{
+            border:0px;
+            color: white;
+        }
+        .fa-facebook-square{
+            border: 0px;
+            color: white; 
+            margin-left: 1%;
+        }
+        .fa-envelope-square{
+            border:0px;
+            color: white;
+            margin-left: 1%;
+        }
+        .fa-github-square{
+            border: 0px;
+            color: white;
+            margin-left: 1%;
+        }
+        .fa-linkedin{
+            border:0px;
+            color: white;
+            margin-left: 1%;
+        }
+    }
+
+    @media screen and (max-width:599px) and (orientation: landscape){
+        #bit{
+            font-size: 40px;  
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        .links{
+            height:40%;
+            width:90%;
+            padding: 0px;
+            margin-left: 5%;
+            margin-right:5%;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+        #l1{
+            width:90%;
+            margin-left: 5%;
+            margin-right:5%;
+            padding: 0px;
+            text-align: center;
+            font-size: 15px;
+        }
+        #l2{
+            width:90%;
+            margin-left: 5%;
+            margin-right:5%;
+            padding: 0px;
+            text-align: center;
+            font-size: 15px;
+        }
+        #l3{
+            width:90%;
+            margin-left: 5%;
+            margin-right:5%;
+            padding: 0px;
+            text-align: center;
+            font-size: 15px;
+        }
+    }
+
+/* LANDSCAPED MOBILE DEVICES (iPHONE 6 +) */
+
+    @media only screen and (min-width: 600px) and (max-width:750px){   
+        #bit{
+            font-size: 40px;  
+            position: absolute;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        #date{
+            position: absolute;
+            top: 35%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            font-size: 27px; 
+        }
+        #mail{
+            position: absolute;
+            top: 80%;
+            left: 44%;
+            transform: translate(-45%,-45%);
+            width: 100%;
+        }
+    } 
+
+/* TABLETS (iPAD) */
+
+    @media only screen and (min-width: 750px) and (max-width: 1100px) {
+        #bit{
+            font-size: 70px;  
+            position: absolute;
+            top: 28%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        #vid{
+            width: 80%;
+            height: 45%;
+            margin: 0px;
+            margin-top: 40%;
+            margin-left: 10%;
+            margin-right: 10%;
+        } 
+    }     
+        @media only screen and (min-width: 750px) and (max-width: 1100px) and (orientation: landscape){
+            #bit{
+                font-size: 80px;  
+                position: absolute;
+                top: 28%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                
+            }
+            #vid{
+                width: 80%;
+                height: 50%;
+                margin: 0px;
+                margin-top: 28%;
+                margin-left: 10%;
+                margin-right: 10%;
+            } 
+        }
+    
+    /* TABLETS (iPAD PRO) */
+
+    @media only screen and (min-width: 1101px) and (max-width: 1400px) {
+        #bit{
+            font-size: 90px;  
+            position: absolute;
+            top: 28%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        #vid{
+            width: 80%;
+            height: 45%;
+            margin: 0px;
+            margin-top: 40%;
+            margin-left: 10%;
+            margin-right: 10%;
+        } 
+    }     
+        @media only screen and (min-width: 1101px) and (max-width: 1400px) and (orientation: landscape){
+            #bit{
+                font-size: 100px;  
+                position: absolute;
+                top: 30%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+            #vid{
+                width: 80%;
+                height: 40%;
+                margin: 0px;
+                margin-top: 28%;
+                margin-left: 10%;
+                margin-right: 10%;
+            } 
+        }
+
+        /* FOR LAPTOP */
+
+        @media screen and (min-width:1401px){
+    .banner{ 
+        height:100%;
+        width: 100%;
+        padding: 0px;
+        margin:0px; 
+        background-size: cover;
+        background-position: center; 
+        display: block; 
+        border-bottom: 4px solid rgba(1, 172, 172, 0.795);       
+    }
+    #bit{
+        font-size: 90px;  
+        position: absolute;
+        top: 26%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    #vid{
+        width: 45%;
+        height: 40%;
+        margin: 0px;
+        margin-top: 20%;
+        margin-left: 27.5%;
+        margin-right: 27.5%;
+
+    }
+    #mail{
+        margin-left: 1%;
+        margin-right: 1%;
+        display: inline;
+        text-align: center;
+    }
+    .fa-instagram{
+        border:0px;
+        color: white;
+    }
+    .fa-facebook-square{
+        border: 0px;
+        color: white; 
+        margin-left: 1%;
+    }
+    .fa-envelope-square{
+        border:0px;
+        color: white;
+        margin-left: 1%;
+    }
+    .fa-github-square{
+        border: 0px;
+        color: white;
+        margin-left: 1%;
+    }
+    .fa-linkedin{
+        border:0px;
+        color: white;
+        margin-left: 1%;
+    }
+        }
+
+
+        /*FOR BUILDING PURPOSES
+
+        .links{
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+            border-top: 1.5px solid rgb(124, 122, 122);
+            border-bottom: 0.5px solid rgb(124, 122, 122);
+            margin-top: 2%;
+            margin-bottom: 1%;
+            position: relative;
+            display: inline-block;
+            text-align: center;
+            font-size: 13px;
+            font-family: 'Courier New', Courier, monospace;
+
+            FOR BUILDING PURPOSES*/
+            
+    /*
+            height: 65px;
+            width: 900px;
+            border-top: 3px solid rgb(124, 122, 122);
+            border-bottom: 1px solid rgb(124, 122, 122);
+            margin-top: 30px;
+            margin-bottom: 40px;
+            padding: 0px;
+            padding-top: 0px;
+            padding-bottom: 20px;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Courier New', Courier, monospace;
+            margin-left: 20%;
+            margin-right: 20%;  
+            overflow-wrap: normal; 
+            */
+
+    /*Now takes CSS for the What I can Offer you page*/
+
     .pic5{
         height:800px;
         padding: 0px;
@@ -301,275 +709,4 @@ html,body{
         opacity: 0.7;
         border-top: 4px solid goldenrod; 
         }
-
-        /*  MEDIA QUERIES  */
-
-        /* PHONE SCREENS (iPhone SE) */
-
-    @media screen and (max-width:599px){
-        .banner{ 
-            height:100%;
-            width: 100%;
-            padding: 0px;
-            margin:0px; 
-            background-size: cover;
-            background-position: center; 
-            display: block; 
-            border-bottom: 4px solid rgba(1, 172, 172, 0.795);       
-        }
-        #bit{
-            font-size: 33px;  
-            position: absolute;
-            top: 30%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-        }
-        #vid{
-            width: 100%;
-            height: 40%;
-            margin: 0px;
-            margin-top: 55%;
-        }
-        #mail{
-            margin-left: 1%;
-            margin-right: 1%;
-            display: inline;
-            text-align: center;
-        }
-        .fa-instagram{
-            border:0px;
-            color: white;
-        }
-        .fa-facebook-square{
-            border: 0px;
-            color: white; 
-            margin-left: 1%;
-        }
-        .fa-envelope-square{
-            border:0px;
-            color: white;
-            margin-left: 1%;
-        }
-        .fa-github-square{
-            border: 0px;
-            color: white;
-            margin-left: 1%;
-        }
-        .fa-linkedin{
-            border:0px;
-            color: white;
-            margin-left: 1%;
-        }
-    }
-
-    @media screen and (max-width:599px) and (orientation: landscape){
-        #bit{
-            font-size: 40px;  
-            position: absolute;
-            top: 15%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-        }
-        #vid{
-            width: 80%;
-            height: 40%;
-            margin: 0px;
-            margin-top: 20%;
-            margin-left: 10%;
-            margin-right: 10%;
-        }
-    }
-
-/* LANDSCAPED MOBILE DEVICES (iPHONE 6 +) */
-
-    @media only screen and (min-width: 600px) and (max-width:750px){   
-        #bit{
-            font-size: 40px;  
-            position: absolute;
-            top: 15%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-        }
-        #vid{
-            width: 80%;
-            height: 40%;
-            margin: 0px;
-            margin-top: 20%;
-            margin-left: 10%;
-            margin-right: 10%;
-        }
-    } 
-
-/* TABLETS (iPAD) */
-
-    @media only screen and (min-width: 750px) and (max-width: 1100px) {
-        #bit{
-            font-size: 70px;  
-            position: absolute;
-            top: 28%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-        }
-        #vid{
-            width: 80%;
-            height: 45%;
-            margin: 0px;
-            margin-top: 40%;
-            margin-left: 10%;
-            margin-right: 10%;
-        } 
-    }     
-        @media only screen and (min-width: 750px) and (max-width: 1100px) and (orientation: landscape){
-            #bit{
-                font-size: 90px;  
-                position: absolute;
-                top: 22%;
-                left: 50%;
-                transform: translate(-50%,-50%);
-                
-            }
-            #vid{
-                width: 80%;
-                height: 50%;
-                margin: 0px;
-                margin-top: 28%;
-                margin-left: 10%;
-                margin-right: 10%;
-            } 
-        }
-    
-    /* TABLETS (iPAD PRO) */
-
-    @media only screen and (min-width: 1101px) and (max-width: 1400px) {
-        #bit{
-            font-size: 90px;  
-            position: absolute;
-            top: 28%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-        }
-        #vid{
-            width: 80%;
-            height: 45%;
-            margin: 0px;
-            margin-top: 40%;
-            margin-left: 10%;
-            margin-right: 10%;
-        } 
-    }     
-        @media only screen and (min-width: 1101px) and (max-width: 1400px) and (orientation: landscape){
-            #bit{
-                font-size: 100px;  
-                position: absolute;
-                top: 25%;
-                left: 50%;
-                transform: translate(-50%,-50%);
-            }
-            #vid{
-                width: 80%;
-                height: 40%;
-                margin: 0px;
-                margin-top: 28%;
-                margin-left: 10%;
-                margin-right: 10%;
-            } 
-        }
-
-        /* FOR LAPTOP */
-
-        @media screen and (min-width:1401px){
-    .banner{ 
-        height:100%;
-        width: 100%;
-        padding: 0px;
-        margin:0px; 
-        background-size: cover;
-        background-position: center; 
-        display: block; 
-        border-bottom: 4px solid rgba(1, 172, 172, 0.795);       
-    }
-    #bit{
-        font-size: 90px;  
-        position: absolute;
-        top: 26%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-    }
-    #vid{
-        width: 45%;
-        height: 40%;
-        margin: 0px;
-        margin-top: 20%;
-        margin-left: 27.5%;
-        margin-right: 27.5%;
-
-    }
-    #mail{
-        margin-left: 1%;
-        margin-right: 1%;
-        display: inline;
-        text-align: center;
-    }
-    .fa-instagram{
-        border:0px;
-        color: white;
-    }
-    .fa-facebook-square{
-        border: 0px;
-        color: white; 
-        margin-left: 1%;
-    }
-    .fa-envelope-square{
-        border:0px;
-        color: white;
-        margin-left: 1%;
-    }
-    .fa-github-square{
-        border: 0px;
-        color: white;
-        margin-left: 1%;
-    }
-    .fa-linkedin{
-        border:0px;
-        color: white;
-        margin-left: 1%;
-    }
-        }
-
-
-        /*FOR BUILDING PURPOSES
-
-        #links{
-            width: 80%;
-            margin-left: 10%;
-            margin-right: 10%;
-            border-top: 1.5px solid rgb(124, 122, 122);
-            border-bottom: 0.5px solid rgb(124, 122, 122);
-            margin-top: 2%;
-            margin-bottom: 1%;
-            position: relative;
-            display: inline-block;
-            text-align: center;
-            font-size: 13px;
-            font-family: 'Courier New', Courier, monospace;
-
-            FOR BUILDING PURPOSES*/
-            
-    /*
-            height: 65px;
-            width: 900px;
-            border-top: 3px solid rgb(124, 122, 122);
-            border-bottom: 1px solid rgb(124, 122, 122);
-            margin-top: 30px;
-            margin-bottom: 40px;
-            padding: 0px;
-            padding-top: 0px;
-            padding-bottom: 20px;
-            text-align: center;
-            font-size: 30px;
-            font-family: 'Courier New', Courier, monospace;
-            margin-left: 20%;
-            margin-right: 20%;  
-            overflow-wrap: normal; 
-            */
-        
+/*END OF WHAT I CAN OFFER YOU PAGE*/
