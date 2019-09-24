@@ -22,7 +22,7 @@ else
 document.write(greeting + " ");
 
 
-var days = ["Moon Day", "Tyres Day", "Wodins Day", "Thors Day", "How's your weekend?", "Wash Day", "Sun Day"];
+var days = ["How's your start to the week?", "How's your Tuesday going?", "How's your Wednesday going?", "How's your Thursday going?", "Happy Friday!", "How's your weekend?", "How's your weekend?"];
 var day = new Date().getUTCDay() - 1;
     
 function getMessageOfTheDay() {

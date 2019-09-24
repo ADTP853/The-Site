@@ -1,0 +1,330 @@
+html,body{
+    background-color: #ecdfc6;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    display: inline-block;
+}
+/*  TOPNAV  */
+#myTopnav{
+    font-family: 'Lato', sans-serif;
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    right: 0;
+    opacity: 0.8;
+}
+/* Add a background color to the top navigation */
+.topnav {
+    /*background:linear-gradient(45deg,rgb(122, 255, 118),rgb(208, 80, 247)); potential gradient*/
+    
+    opacity:0.9;
+    overflow: hidden;
+    background-color: #bfc1c1;
+    border-bottom: 4px solid #70ccce;
+    border-top:5px solid #176f82;
+    margin: 0;
+    padding: 0;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    position: relative;
+    margin-left: 3%;
+    left:300px;
+    float: left;
+    display: block;
+    color: #515455;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #70ccce;
+    color: #ecdfc6;
+}
+/* Add an active class to highlight the current page */
+.topnav a.active {
+    background-color: #176f82;
+    color: #ecdfc6;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+            /*         TOPNAV MEDIA QUERIES        */
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the
+ link that contains should open and close the topnav (.icon) */
+ @media screen and (max-width: 900px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. 
+ This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 900px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      left:88%;
+      right: 0;
+      top: 0;
+      color:#ecdfc6;
+      background-color: inherit;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
+
+/*    MAIN CONTENT    */
+#inTouch{
+    display: flex;
+}
+.pic1{
+    height:70vh;
+    margin-left: 5%;
+}
+#touchTxt{
+    font-size:25px;
+    font-family: 'Gayathri', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #515455;
+    background-color:#c9a551;
+    max-height: 70vh;
+    margin-left:5%;
+    margin-right: 2%;
+    padding: 5%;
+}
+.me{
+    text-decoration: underline;
+    font-size: 20px;
+    color: #515455;
+    margin-right: 4px;
+}
+.me:hover{
+    color:#606b51;
+}
+#foot{
+    border: 0px;
+    padding-left: 40%;
+    padding-right: 40%;
+    display: inline;
+    text-align: center
+}
+.fa-instagram{
+    border:0px;
+    color: #515455;
+}
+.fa-instagram:hover{ 
+    border:0px;
+    color: #7e3aae;
+}
+.fa-envelope-square{
+    border: 0px;
+    margin-left: 50px;
+    color: #515455; 
+}
+.fa-envelope-square:hover{
+    border: 0px;
+    margin-left: 50px;
+    color: #606b51; 
+}
+.fa-facebook-square{
+    border: 0px;
+    margin-left: 50px;
+    color: #515455;
+}
+.fa-facebook-square:hover{
+    border: 0px;
+    margin-left: 50px;
+    color: #4064ad;
+}
+.fa-github-square{
+    border: 0px;
+    margin-left: 50px;
+    color: #515455;
+}
+.fa-github-square:hover{
+    border: 0px;
+    margin-left: 50px;
+    color: #000000;
+}
+.fa-linkedin{
+    border:0px;
+    margin-left: 50px;
+    color: #515455;
+}
+.fa-linkedin:hover{
+    color:#2977b5;
+    border:0px;
+    margin-left: 50px;
+}
+#copy{
+    background-color: #bfc1c1;
+    text-align: center;
+}
+ /*  MEDIA QUERIES  */
+
+        /* PHONE SCREENS (iPhone SE) */
+
+@media screen and (max-width:599px){
+    .topnav a{
+        left:0px;
+        margin:0%;
+    }
+    .topnav.responsive a.icon {
+        background-color: inherit;
+    }
+    #inTouch{
+        display: flex;
+        justify-content: space-around;
+        flex-flow: column;
+        align-items: flex-start;
+    }
+    #touchTxt{
+        order: 1;
+        margin-bottom: 5%;
+        margin-right: 4%;
+    }
+    #div1{
+        order: 2;
+        margin-left: 6%;
+    }
+    .fab,.fas{
+        display: inline;
+        margin-left: 1px;
+        margin-right: 1px;   
+    }
+}
+
+@media screen and (max-width:599px) and (orientation: landscape){
+    #inTouch{
+        flex-direction: row;
+    }
+    .pic1{
+        height: 80vh;
+        margin-top: 15%;
+        margin-left:-10%;
+    }
+    #touchTxt{
+        order:2;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 7%;
+    }
+    .me{
+        font-size: 15px;
+    }
+}
+
+/* LANDSCAPED MOBILE DEVICES (iPHONE 6 +) */
+
+@media only screen and (min-width: 600px) and (max-width:750px){
+    .topnav a{
+        left:0px;
+        margin:0%;
+    }
+    #touchTxt{
+        order:1;
+        font-size: 15px;
+        line-height: 20px;
+        padding-bottom: 7%;
+        height: 85vh;
+    }
+    .me{
+        font-size: 15px;
+    }
+    .pic1{
+        height: 90vh;
+    }
+}
+/* TABLETS (iPAD) */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .topnav a{
+        margin:0%;
+        left: 0px;
+    }
+    .topnav.responsive a.icon {
+        background-color: inherit;
+    }
+    #inTouch{
+        display: flex;
+        justify-content: space-around;
+        flex-flow: column;
+        align-items: flex-start;
+    }
+    #touchTxt{
+        order: 1;
+        margin-bottom: 5%;
+        margin-right: 4%;
+        font-size: 20px;
+    }
+    #div1{
+        order: 2;
+        margin-left: 16%;
+    }
+    .pic1{
+        height: 50vh;
+        margin-left:25%;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation:landscape){
+    .topnav a{
+        left: 10%;
+    }
+    #inTouch{
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row;
+        margin-right: 10%;
+    }
+    #touchTxt{
+        order: 2;
+        height: 60%;
+        padding:4%;
+    } 
+    #touchTxt p{
+       font-size: 20px; 
+    }
+    .me{
+        font-size: 20px;
+    }
+    #div1{
+        height: 80%;
+        margin-right: 20%;
+        margin-top: 10%;
+    }
+}
+
+ /* TABLETS (iPAD PRO) */
+
+ @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    .topnav a{
+        margin-left: 8%;
+    }
+    #touchTxt{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .me{
+        font-size:25px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation:landscape){
+    .topnav a{
+        margin-left: 5%;
+    }
+}

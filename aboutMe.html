@@ -9,10 +9,97 @@
         <meta name="keywords" content="CV page for onTheRoadCoder web developer HTML,CSS,JavaScript">
         <meta name="author" content="onTheRoadCoder">
         <title>&lt;/onTheRoadCoder&gt;</title>
-        <link rel="stylesheet" type="text/css" media="screen" href="CSS/HomePageStyles.css"/>
+        <link rel="stylesheet" type="text/css" media="screen" href="CSS/aboutMe.css"/>
         <link rel="stylesheet" type="text/css" href="CSS/fontawesome-free-5.7.2-web/css/all.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/v4-shims.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:700|Oswald:300|Roboto+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Abel|Source+Code+Pro&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Gayathri&display=swap" rel="stylesheet">
     </head>
     <body>
-        
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="index.html">HOME</a>
+                <a href="aboutMe.html" class="active">ABOUT ME</a>
+                <a href="whaticanofferyou.html">WHAT I CAN OFFER YOU</a>
+                <a href="contact.html">CONTACT ME</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <script>
+                /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+                function myFunction() {
+                        
+                    var x = document.getElementById("myTopnav");
+    
+                    if (x.className === "topnav") {
+                    x.className += " responsive";
+                    } 
+                    else {
+                    x.className = "topnav";
+                    }
+                }
+            </script>
+        </nav>
+        <section>
+            <div class="banner">
+                <div id="bit">
+                    "Helping entrepreneurs grow their empires"
+                </div>
+            </div>
+        </section>
+        <main>
+            <section>
+                <div id="me">
+                    <p>
+                        Hey, I'm Alec, creator of &lt;/onTheRoadCoder&gt;. I help entrepreneurs grow their empires by
+                        offering custom coded content for their websites, but this wasn't how I initially set out.
+                        </br><br>
+                        I spent 12 years in the military living the tankie life as part of the Royal Tank Regiment, serving one 
+                        tour of Afghanistan and the last third of my career as a tank commander. 
+                        </br><br>
+                        I travel with my wife Bry and our two little wolves (Siberian Huskies) Balto and Laika.
+                        Bry's fun, nomadic lifestyle made me crave a location free lifestyle for all of us. So it didn't take too
+                        long for me to gain an excited interest into the world of coding.
+                        </br><br>
+                        Come June 2019, after a year of hard studying, I launched my freelance web development business here at
+                        &lt;/onTheRoadCoder&gt; which allows us the freedom to live the lifestyle we want. Better still, while I 
+                        set out to grow my empire, my work helps other entrepreneurs to grow theirs too, so it's a complete win 
+                        all round.
+                        </br><br>
+                        Click the link below to find out how...
+                        </br><br><br>
+                        <a href="whaticanofferyou.html" id="HB2">WHAT I CAN OFFER YOU</a>
+                    </p>
+                </div>
+            </section>
+            <section>
+                <div id="trio">
+                    <img class="trio1" src="CSS/tank.JPG" alt="Alec">
+                    <img class="trio1 trio2" src="CSS/you.jpg" alt="Alec">
+                    <img class="trio1 trio3" src="CSS/wolves.jpg" alt="Alec">
+                </div>
+            </section>
+        </main>
+        <br><br>
+        <!--FOOTER SECTION-->
+        <footer id="foot">
+            <nav>
+                <div>
+                    <a alt="Instagram" href="https://www.instagram.com/alec_d_t_penney/"><i title="Instagram" class="fab fa-instagram fa-4x"></i></a>
+                    <a alt="Facebook" href="https://www.facebook.com/alec.penney.1"><i title="Facebook" class="fab fa-facebook-square fa-4x"></i></a>
+                    <a alt="email" href="mailto:Alec@ontheroadcoder.com?subject=Enquiry"  target="_top"><i title="Email" class="fas fa-envelope-square fa-4x"></i></a>
+                    <a alt="GitHub" href="https://github.com/ADTP853"><i title="GitHub" class="fab fa-github-square fa-4x"></i></a>
+                    <a alt="LinkedIn" href="https://www.linkedin.com/in/alec-penney-0864a4150/"><i class="fab fa-linkedin fa-4x"></i></a>
+                </div>
+                <div id="copy">
+                    <p>
+                        &copy; Copyright 2019
+                    </p>
+                </div>
+            </nav>
+        </footer>
     </body>
 </html>

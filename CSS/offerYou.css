@@ -1,0 +1,280 @@
+html,body{
+    background-color: #ecdfc6;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    display: inline-block;
+}
+/*  TOPNAV  */
+#myTopnav{
+    font-family: 'Lato', sans-serif;
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    right: 0;
+    opacity: 0.8;
+}
+/* Add a background color to the top navigation */
+.topnav {
+    /*background:linear-gradient(45deg,rgb(122, 255, 118),rgb(208, 80, 247)); potential gradient*/
+    
+    opacity:0.9;
+    overflow: hidden;
+    background-color: #bfc1c1;
+    border-bottom: 4px solid #70ccce;
+    border-top:5px solid #176f82;
+    margin: 0;
+    padding: 0;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    position: relative;
+    margin-left: 3%;
+    left:300px;
+    float: left;
+    display: block;
+    color: #515455;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #70ccce;
+    color: #ecdfc6;
+}
+/* Add an active class to highlight the current page */
+.topnav a.active {
+    background-color: #176f82;
+    color: #ecdfc6;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+            /*         TOPNAV MEDIA QUERIES        */
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the
+ link that contains should open and close the topnav (.icon) */
+ @media screen and (max-width: 900px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. 
+ This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 900px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      left:88%;
+      right: 0;
+      top: 0;
+      color:#ecdfc6;
+      background-color: inherit;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+}
+
+/*    MAIN CONTENT    */
+#myoffer{
+    display: flex;
+    flex-direction: column;
+    background-color: #c9a551;
+    padding: 2%;
+    margin: 3%;
+    font-family: 'Gayathri', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #515455;
+}
+#type{
+    margin-left:8%;
+}
+.typePic{
+    height:70vh;
+    width:80vw;
+    padding:2%;
+}
+.offer{
+    padding: 2%;
+    margin: 3%;
+    font-family: 'Gayathri', sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    color: #515455;
+}
+#custom{
+    background-color: #bfc1c1;
+}
+#website{
+    background-color:  #6a755a;
+    color: rgb(41, 40, 40);
+}
+#fixes{
+    color: #474a4b;
+    background-color: #22879e;
+}
+.me{
+    text-decoration: underline;
+    color: #515455;
+}
+.me2{
+    color: rgb(41, 40, 40);
+}
+.me3{
+    color: #474a4b;
+}
+.me:hover{
+    color: #ecdfc6;
+}
+.me:visited{
+    text-decoration: none;
+    color: initial;
+}
+#foot{
+    border: 0px;
+    padding-left: 40%;
+    padding-right: 40%;
+    display: inline;
+    text-align: center
+}
+.fa-instagram{
+    border:0px;
+    color: #515455;
+}
+.fa-instagram:hover{ 
+    border:0px;
+    color: #7e3aae;
+}
+.fa-envelope-square{
+    border: 0px;
+    margin-left: 50px;
+    color: #515455; 
+}
+.fa-envelope-square:hover{
+    border: 0px;
+    margin-left: 50px;
+    color: #606b51; 
+}
+.fa-facebook-square{
+    border: 0px;
+    margin-left: 50px;
+    color: #515455;
+}
+.fa-facebook-square:hover{
+    border: 0px;
+    margin-left: 50px;
+    color: #4064ad;
+}
+.fa-github-square{
+    border: 0px;
+    margin-left: 50px;
+    color: #515455;
+}
+.fa-github-square:hover{
+    border: 0px;
+    margin-left: 50px;
+    color: #000000;
+}
+.fa-linkedin{
+    border:0px;
+    margin-left: 50px;
+    color: #515455;
+}
+.fa-linkedin:hover{
+    color:#2977b5;
+    border:0px;
+    margin-left: 50px;
+}
+#copy{
+    background-color: #bfc1c1;
+    text-align: center;
+}
+
+   /*  MEDIA QUERIES  */
+
+        /* PHONE SCREENS (iPhone SE) */
+
+@media screen and (max-width:599px){
+    .topnav a{
+        left:0px;
+        margin:0%;
+    }
+    .topnav.responsive a.icon {
+        background-color: inherit;
+    }
+    #work{
+        font-size: 10px;
+    }
+    .typePic{
+        height: 40vh;
+    }
+    .fab,.fas{
+        display: inline;
+        margin-left: 1px;
+        margin-right: 1px;   
+    }
+}
+@media screen and (max-width:599px) and (orientation: landscape){
+    .typePic{
+        height: 70vh;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width:750px){
+    .topnav a{
+        left:0px;
+        margin:0%;
+    }
+}
+
+/* TABLETS (iPAD) */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .topnav a{
+        left:0px;
+        margin:0%;
+    }
+    #work{
+        font-size: 18px;
+    }  
+    .typePic{
+        height: 40vh;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation:landscape){
+    .topnav a{
+        left: 10%;
+    }
+    .typePic{
+        height: 50vh;
+    }
+}
+/* TABLETS (iPAD PRO) */
+
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    .topnav a{
+        margin-left: 8%;
+    }
+    #work p{
+        font-size: 18px;
+    }  
+    .offer{
+        font-size: 18px;
+    } 
+}
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (orientation:landscape){
+    .topnav a{
+        margin-left: 5%;
+    }
+}
