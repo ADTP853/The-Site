@@ -21,8 +21,16 @@ else
 
 document.write(greeting + " ");
 
+
+
+    var d=new Date()
+    var weekday=new Array("Happy Sunday!","How's your start to the week?","How's your Tuesday going?",
+                          "How's your Wednesday going?","How's your Thursday going?","Happy Friday!","How's your weekend?")
+    document.write(" " + weekday[d.getDay()])
+
 /*
-var days = ["How's your start to the week?", "How's your Tuesday going?", "How's your Wednesday going?", "How's your Thursday going?", "Happy Friday!", "How's your weekend?", "Happy Sunday", ];
+var days = ["How's your start to the week?", "How's your Tuesday going?", "How's your Wednesday going?",
+            "How's your Thursday going?", "Happy Friday!", "How's your weekend?", "Happy Sunday"];
 var day = new Date().getUTCDay() - 1;
     
 function getMessageOfTheDay() {
