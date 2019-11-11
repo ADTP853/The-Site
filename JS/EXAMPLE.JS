@@ -25,7 +25,7 @@ document.write(greeting + " ");
 
     var d=new Date()
     var weekday=new Array("Happy Sunday!","How's your start to the week?","How's your Tuesday going?",
-                          "How's your Wednesday going?","Happy Halloween!","Happy Friday!","How's your weekend?")
+                          "How's your Wednesday going?","Happy Thursday!","Happy Friday!","How's your weekend?")
     document.write(" " + weekday[d.getDay()])
 
 /*
