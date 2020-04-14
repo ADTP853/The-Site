@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <author></silverCoder></author>
+        <author></onTheRoadCoder></author>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="CV page for onTheRoadCoder web developer">
@@ -9,6 +9,7 @@
         <meta name="keywords" content="CV page for onTheRoadCoder web developer HTML,CSS,JavaScript">
         <meta name="author" content="onTheRoadCoder">
         <title>&lt;/onTheRoadCoder&gt;</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" media="screen" href="CSS/aboutMe.css"/>
         <link rel="stylesheet" type="text/css" href="CSS/fontawesome-free-5.7.2-web/css/all.css"/>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css">
@@ -18,11 +19,11 @@
         <link href="https://fonts.googleapis.com/css?family=Gayathri&display=swap" rel="stylesheet">
     </head>
     <body>
-        <nav>
-            <div class="topnav" id="myTopnav">
+        <nav> 
+            <div class="topnav" id="myTopnav"> <!--ID  ADDED FOR JS-->
                 <a href="index.html">HOME</a>
                 <a href="aboutMe.html" class="active">ABOUT ME</a>
-                <a href="whaticanofferyou.html">WHAT I CAN OFFER YOU</a>
+                <a href="whaticanofferyou.html">SERVICES</a>
                 <a href="contact.html">CONTACT ME</a>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
@@ -43,16 +44,14 @@
                 }
             </script>
         </nav>
-        <section>
-            <div class="banner">
+        <section class="banner">
                 <div id="bit">
                     "Helping entrepreneurs grow their empires"
                 </div>
-            </div>
         </section>
         <main>
-            <section>
-                <div id="me">
+            <section id="me">
+                <div>
                     <p>
                         Hey, I'm Alec, creator of &lt;/onTheRoadCoder&gt;. I help entrepreneurs grow their empires by
                         offering custom coded content for their websites, but this wasn't how I initially set out.
@@ -70,17 +69,15 @@
                         all round.
                         </br><br>
                         Click the link below to find out how...
-                        </br><br><br>
-                        <a href="whaticanofferyou.html" id="HB2">WHAT I CAN OFFER YOU</a>
-                    </p>
+                    </p> 
+                    <a href="whaticanofferyou.html" id="HB2">SERVICES</a>
                 </div>
             </section>
-            <section>
-                <div id="trio">
-                    <img class="trio1" src="CSS/tank.JPG" alt="Alec">
-                    <img class="trio1 trio2" src="CSS/you.jpg" alt="Alec">
-                    <img class="trio1 trio3" src="CSS/wolves.jpg" alt="Alec">
-                </div>
+            <section id="trio">
+                <!--PUTTING THE IMAGES IN THEIR OWN DIV CONTAINER SEEMS TO WORK BETTER WITH FLEXBOX RESPONSIVENESS-->
+                <div><img class="trio1 one" src="CSS/tank.JPG" alt="Alec"></div>
+                <div><img class="trio1 two" src="CSS/you.jpg" alt="Alec"></div>
+                <div><img class="trio1 three" src="CSS/wolves.jpg" alt="Alec"></div>
             </section>
         </main>
         <br><br>
