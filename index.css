@@ -11,7 +11,7 @@ html,body{
     position: relative;
     text-align: center;
     height: 100%;
-    background-image: url("/Users/ADTP853/Desktop/My Creations/<:onTheRoadCoder>/My Home Page/CSS/Images/IMG_2573.jpg");
+    background-image: url("CSS/Images/IMG_2573.jpg");
     background-size: cover;
     background-position: center; 
     border-bottom: 4px solid #176f82; 
