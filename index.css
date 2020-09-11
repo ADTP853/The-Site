@@ -92,7 +92,7 @@ html,body{
         font-size: 10px;
     }
     #services{
-        font-size:18px;
+        font-size:15px;
     }
 }
 @media screen and (max-width:599px) and (orientation: landscape){
@@ -103,7 +103,7 @@ html,body{
         font-size: 15px;
     }
     #services{
-        font-size:18px;
+        font-size:15px;
     }
 }
 
